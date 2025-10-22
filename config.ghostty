@@ -1,0 +1,44 @@
+# The configuration can be reloaded at runtime by `cmd+shift+,`
+
+# Colors
+# 'zenburned' from paletty.dev + custom colors (1, 4, 5, foreground) from fzf demo gif
+palette = 0=#404040
+palette = 1=#b78989
+palette = 2=#819b69
+palette = 3=#b77e64
+palette = 4=#819eb7
+palette = 5=#cc5379
+palette = 6=#66a5ad
+palette = 7=#f0e4cf
+palette = 8=#625a5b
+palette = 9=#ec8685
+palette = 10=#8bae68
+palette = 11=#d68c67
+palette = 12=#61abda
+palette = 13=#cf86c1
+palette = 14=#65b8c1
+palette = 15=#c0ab86
+background = #404040
+foreground = #d0d0d0
+cursor-color = #f3eadb
+cursor-text = #404040
+selection-background = #746956
+selection-foreground = #f0e4cf
+
+# General
+macos-icon = chalkboard
+auto-update = off
+confirm-close-surface = false
+
+# Window
+title = " "
+window-height = 50
+window-width = 200
+# bottom terminal line will have current background color rather than default color (useful for vim):
+window-padding-color = extend
+
+# Font
+font-family = "Monaspace Neon Regular"
+font-size = 14
+# thick chars look better:
+font-thicken = true

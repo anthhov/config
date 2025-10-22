@@ -1,0 +1,17 @@
+[user]
+    email = ant.hhov@gmail.com
+    name = Anton Ostroukhov
+[color]
+    ui = auto
+[diff]
+    algorithm = histogram
+    renames = true
+[alias]
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    sh = show HEAD
+    s = status
+    a = add
+    c = commit
+    ca = commit --amend --no-edit
+    d = diff
+    dw = diff --word-diff
